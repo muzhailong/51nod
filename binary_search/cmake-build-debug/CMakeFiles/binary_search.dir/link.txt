@@ -1,0 +1,3 @@
+"E:\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\binary_search.dir/objects.a
+E:\MinGw\mingw32\bin\ar.exe cr CMakeFiles\binary_search.dir/objects.a @CMakeFiles\binary_search.dir\objects1.rsp
+E:\MinGw\mingw32\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\binary_search.dir/objects.a -Wl,--no-whole-archive  -o binary_search.exe -Wl,--out-implib,libbinary_search.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\binary_search.dir\linklibs.rsp
